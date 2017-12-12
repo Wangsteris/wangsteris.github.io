@@ -137,9 +137,10 @@ header #container a{
 #supnet{
     height:50%;
     min-height: 20%;
-    background: url('../img/bg.jpg') no-repeat -50px -400px;;
+    background: url('../img/bg.jpg');
     text-align:center;
     color:#ffffff;
+    border-bottom: #e8491d 3px solid;
 }
 
 #showcase h1{
@@ -156,9 +157,9 @@ header #container a{
 
 
 #showcase{
-    height:50%;
+    height: 300px;
     min-height: 20%;
-    background: url('../img/bg.jpg') no-repeat -50px -400px;;
+    background: url('../img/bg.jpg');
     text-align:center;
     color:#ffffff;
 }
@@ -211,7 +212,8 @@ header #container a{
 
 /*Boxes*/
 #boxes1{
-    margin-top:-2px;
+    margin-top:0px;
+    padding-top: 10px;
     margin-bottom: -20px;
     background: #ff99cc;
     padding-left: 115px;
