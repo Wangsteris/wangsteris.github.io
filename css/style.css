@@ -60,7 +60,7 @@ header{
 }
 
 header a{
-    color:#ffffff;
+    color:black;
     text-decoration: none;
     text-transform:uppercase;
     font-size: 16px;
@@ -90,7 +90,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color:#000000;
+    color:#880000;
     font-weight:bold;
 }
 
@@ -137,10 +137,11 @@ header #container a{
 #supnet{
     height:50%;
     min-height: 20%;
-    background: url('../img/bg.jpg');
+    background: url('../img/netbg.jpg');
     text-align:center;
     color:#ffffff;
     border-bottom: #e8491d 3px solid;
+    margin-bottom: 0;
 }
 
 #showcase h1{
@@ -150,7 +151,7 @@ header #container a{
 }
 
 #showcase p{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /*Showcase*/
@@ -161,12 +162,12 @@ header #container a{
     min-height: 20%;
     background: url('../img/bg.jpg');
     text-align:center;
-    color:#ffffff;
+    color:green;
 }
 
 #showcase h1{
     margin-top: 100px;
-    font-size: 55px;
+    font-size: 50px;
     margin-bottom:10px;
 }
 
@@ -190,6 +191,10 @@ header #container a{
 #donation form {
     float:left;
     margin-top:15px;
+}
+
+#donation pic {
+    float: right;
 }
 
 #donation input[type="card"]{
@@ -243,8 +248,39 @@ header #container a{
 /*sidebar*/
 #sidebar{
     float:right;
-    width:30%;
+    width:18%;
     margin-top:10px;
+    height:25%;
+    background: #ff99cc;
+    min-height: 25%;
+    min-width: 18%;
+}
+
+#sidebar h1{
+    margin-left:10px;
+}
+
+#sidebar a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+
+#sidebar ul{
+    float:left;
+    padding: 0 20px 0 20px;
+    display: inline;
+}
+
+#sidebar .highlight, #sidebar .current a{
+    color:#8B0000;
+    font-weight:bold;
+}
+
+#sidebar a:hover{
+    color:#8B0000;
+    font-weight:bold;
 }
 
 /*Main-col*/
@@ -255,8 +291,37 @@ article#main-col{
 
 footer{
     padding:20px;
-    margin-top: 20px;
+    margin-top: 100px;
     color: #ffffff;
     background-color: #ff99cc;
     text-align: center;
+}
+
+
+/*sidebar1*/
+#sidebar1{
+    float:right;
+    width:18%;
+    margin-top:10px;
+    height:40%;
+    background: #ff99cc;
+    min-height: 35%;
+    min-width: 18%;
+}
+
+#sidebar1 h1{
+    margin-left:10px;
+}
+
+#sidebar1 a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+
+#sidebar1 ul{
+    float:left;
+    padding: 0 20px 0 20px;
+    display: inline;
 }
