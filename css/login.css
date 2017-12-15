@@ -1,0 +1,92 @@
+            @import url('https://fonts.googleapis.com/css?family=Roboto');
+            
+            .body{
+                background-color:black;
+                width:100%;
+                right:-40px;
+                bottom:-40px;
+                height:auto;
+                background-size: cover;
+                padding-top: 50px;
+                padding-bottom: 450px;
+            }
+            
+            .head{
+                position:absolute;
+                top:calc(50%-35px);
+                left:calc(50%-25px);
+            }
+            
+            .header div{
+                margin-top:250px;
+                margin-left: 550px;
+                color: red;
+                font-family: "Roboto";
+                font-size: 32px;
+            }
+            
+            .header div span{
+                color:#fff;
+            }
+            
+            .login{
+                position:absolute;
+                top:calc(50%-75px);
+                left:calc(50%-50px);
+                height:100px;
+                width:250px;
+                padding:10px;
+                background:black;
+                margin-left: 560px;
+            }
+            .login p{
+                color:red;
+            }
+            .login input [type=text]{
+                width:250px;
+                height: 30px;
+                background:transparent;
+                border: 1px solid rgba(255,255,255,0.6);
+                border-radius:2px;
+                color:red;
+                font-family:"Roboto", sans-serif;
+                font-size: 16px;
+                font-weight:400;
+                padding: 4px;
+            }
+            
+            .login input [type=password]{
+                width:250px;
+                height: 30px;
+                background:transparent;
+                border: 1px solid rgba(255,255,255,0.6);
+                border-radius:2px;
+                color:#0000000;
+                font-family:"Roboto", sans-serif;
+                font-size: 16px;
+                font-weight:400;
+                padding: 4px;
+            }
+            
+            .login input [type=button]{
+                width:260px;
+                height:35px;
+                background:red;
+                border:1px solid red;
+                cursor: pointer;
+                border-radius:2px;
+                color:#a18d6c;
+                font-family: "Roboto", sans-serif;
+                font-size:16px;
+                font-weight:400;
+                padding: 6px;
+                margin-top: 10px;
+            }
+            
+            ::-webkit-input-placeholder{
+                color:rgba(255,255,255,0.6);
+            }
+            
+            ::-moz-input-placeholder{
+                color:rgba(255,255,255,0.6);
+            }

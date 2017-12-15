@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="./css/login.css">
+
+    </head>
+    <body oncontextmenu="return false">
+        <div class="body">
+        <div class="grad"></div>
+        <div class="header">
+            <div>VIP<span> Welcome Back</span></div>
+        </div>
+        <br>
+        <form name="login">
+            <div class="login">
+                <p style=>Username</p>
+                <input type="text" placeholder="Username" name="userid"></input><br />
+                <p>Password</p>
+                <input type="password" placeholder="Password" name="pswrd"></input><br />
+                <input type="button" onclick="check(this.form)" value="Login"/>
+
+            </div>
+        </form>
+        </div>
+        <script language="javascript">
+            function check(form)
+                {
+                    if(form.userid.value == "vip" && form.pswrd.value == "swang")
+                        {
+                            window.open("index_alt.html")
+                        }
+                    else
+                    {
+                        alert("The username and password you entered is incorrect.")
+                    }
+                }
+        </script>
+    </body>
+</html>

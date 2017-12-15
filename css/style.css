@@ -35,6 +35,15 @@ ul{
     color:#ffffff;
 }
 
+.button_2{
+    height:30px;
+    background:#000000;
+    border-style:solid;
+    border-color:red;
+    color:red;
+    font-size-adjust: inherit 50%
+}
+
 .dark{
     padding:15px;
     background:#ff99cc;
@@ -65,7 +74,6 @@ header a{
     text-transform:uppercase;
     font-size: 16px;
 }
-
 
 
 
@@ -105,6 +113,7 @@ header #container{
     float:center;
     background-color:red;
 }
+
 
 #net{
     text-align: center;
@@ -248,16 +257,16 @@ header #container a{
 /*sidebar*/
 #sidebar{
     float:right;
-    width:18%;
+    height:185px;
+    width:150px;
     margin-top:10px;
-    height:25%;
     background: #ff99cc;
-    min-height: 25%;
-    min-width: 18%;
+    min-height: 100px;
+    min-width: 150px;
 }
 
-#sidebar h1{
-    margin-left:10px;
+#sidebar h3{
+    text-align: center;
 }
 
 #sidebar a{
@@ -265,6 +274,7 @@ header #container a{
     text-decoration: none;
     text-transform:uppercase;
     font-size: 16px;
+    text-align: center;
 }
 
 #sidebar ul{
