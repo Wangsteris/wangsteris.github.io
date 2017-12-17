@@ -339,19 +339,19 @@ footer{
 }
 
 
-.button3 {
-    background-color: white; 
+.buttondwon1 {
+    background-color: red; 
     color: black; 
     border: 2px solid #f44336;
 }
 
-.button3:hover {
+.buttondown1:hover {
     background-color: #f44336;
     color: white;
 }
 
-.buttondownl {
-    background-color: #4CAF50; /* Green */
+.buttondown1 {
+    background-color: red;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -360,38 +360,92 @@ footer{
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
+    min-height:5%;
+    min-width:5%;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+
+.buttondwon2 {
+    background-color: red; 
+    color: black; 
+    border: 2px solid #f44336;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.dropdown-content a {
+.buttondown2:hover {
+    background-color: #f44336;
     color: white;
-    padding: 10px 12px;
+}
+
+.buttondown2 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
     text-decoration: none;
-    display:block;
-    background:red;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    min-height:5%;
+    min-width:5%;
 }
 
-.dropdown-content a:hover {background-color: #ff3333}
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.buttondwon3 {
+    background-color: red; 
+    color: black; 
+    border: 2px solid #f44336;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #ff3333;
+.buttondown3:hover {
+    background-color: #f44336;
+    color: white;
 }
+
+.buttondown3 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    min-height:5%;
+    min-width:5%;
+}
+
+.buttondwon4 {
+    background-color: red; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+.buttondown4:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.buttondown4 {
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    min-height:5%;
+    min-width:5%;
+}
+

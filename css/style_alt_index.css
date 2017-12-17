@@ -11,9 +11,16 @@
 
 header {
     padding-top:330px;
-    background:black;
     color:#990000;
     padding-bottom: 330px;
+}
+
+html { 
+  background: url('../img/home_alt.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 header li{
@@ -30,7 +37,7 @@ header a{
 }
 
 header .highlight, header .current a{
-    color:#660000;
+    color:#f90000;
     font-weight:bold;
 }
 
