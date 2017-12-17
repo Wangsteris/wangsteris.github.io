@@ -1,0 +1,75 @@
+.button_2{
+    height:30px;
+    background:#000000;
+    border-style:solid;
+    border-color:red;
+    color:red;
+    font-size-adjust: inherit 50%;
+    cursor: pointer;
+    text-align: center;
+}
+
+header {
+    padding-top:330px;
+    background:black;
+    color:#990000;
+    padding-bottom: 330px;
+}
+
+header li{
+    padding: 0 20px 0 20px;
+    display: inline;
+}
+
+
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+
+header .highlight, header .current a{
+    color:#660000;
+    font-weight:bold;
+}
+
+header nav{
+    margin-top:10px;
+}
+
+header a:hover{
+    color:#cc0000;
+    font-weight:bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    display:block;
+    background:red;
+}
+
+.dropdown-content a:hover {background-color: #ff3333}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ff3333;
+}

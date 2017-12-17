@@ -9,7 +9,8 @@
                 height:auto;
                 background-size: cover;
                 padding-top: 50px;
-                padding-bottom: 450px;
+                padding-bottom: 300px;
+                padding-top: 292px;
             }
             
             .head{
@@ -19,11 +20,10 @@
             }
             
             .header div{
-                margin-top:250px;
-                margin-left: 550px;
                 color: red;
                 font-family: "Roboto";
                 font-size: 32px;
+                position:static;
             }
             
             .header div span{
@@ -38,7 +38,7 @@
                 width:250px;
                 padding:10px;
                 background:black;
-                margin-left: 560px;
+                position:static;
             }
             .login p{
                 color:red;
