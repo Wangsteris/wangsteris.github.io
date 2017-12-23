@@ -1,3 +1,6 @@
+/*/
+Button to get out of VIP mode
+/*/
 .button_2{
     height:30px;
     background:#000000;
@@ -7,19 +10,9 @@
     font-size-adjust: inherit 50%
 }
 
-header .container{
-    background-color: black;
-    color:#b30000;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: #e8491d 3px solid;
-}
-
-header .highlight, header .current a{
-    color:#880000;
-    font-weight:bold;
-}
-
+/*/
+Drop down
+/*/
 .dropdown {
     position: relative;
     display: inline-block;
@@ -51,7 +44,21 @@ header .highlight, header .current a{
     background-color: #ff3333;
 }
 
+/*/
+Header
+/*/
+header .container{
+    background-color: black;
+    color:#b30000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: #e8491d 3px solid;
+}
 
+header .highlight, header .current a{
+    color:#880000;
+    font-weight:bold;
+}
 header li{
     padding: 0 20px 0 20px;
     display: inline;
@@ -79,10 +86,9 @@ header a:hover{
     color:#cc0000;
     font-weight:bold;
 }
-
-body{
-    background-color: black
-}
+/*/
+Body
+/*/
 
 body .box h1{
     color:Red;
@@ -130,7 +136,6 @@ body h3{
     font-style: oblique;
 }
 
-body h4{
-    color:red;
-    font-size: 250px;
+body{
+    background-image: url('../img/boss.jpg');
 }

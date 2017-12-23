@@ -59,6 +59,7 @@ ul{
     min-height:20%;
 }
 
+
 /*This is the Header*/
 
 header{
@@ -307,6 +308,17 @@ footer{
     color: #ffffff;
     background-color: #ff99cc;
     text-align: center;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color: #ffffff;
+  background-color:#ff99cc;
+  text-align: center;
 }
 
 

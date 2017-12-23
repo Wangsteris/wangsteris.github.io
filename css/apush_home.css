@@ -1,27 +1,26 @@
-/*/
-Button Used to Exit VIP Mode
-/*/
-.button_2{
-    height:30px;
-    background:#000000;
-    border-style:solid;
-    border-color:red;
-    color:red;
-    font-size-adjust: inherit 50%;
-    cursor: pointer;
-    text-align: center;
+.highlight1{
+    color:#c10000;
+}
+
+.highlight2{
+    color:white;
+}
+
+.highlight3{
+    color:#0052d6;
 }
 /*/
 Pertaining to whole HTML page.
 /*/
 
 html { 
-  background: url('../img/home_alt.jpg') no-repeat center center fixed; 
+  background: url('../img/apush_home.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
 
 /*/
 Header
@@ -32,10 +31,20 @@ header {
     padding-bottom: 330px;
 }
 
+header h1{
+    color:#ff1c1c;
+    font-style:italic;
+    font-size:50px;
+}
+
+header h2{
+    color:#ff1c1c;
+    font-style:italic;
+    font-size:25px;
+}
 
 header li{
     padding: 0 20px 0 20px;
-    display: inline;
 }
 
 
@@ -58,6 +67,11 @@ header nav{
 header a:hover{
     color:#cc0000;
     font-weight:bold;
+}
+
+header p{
+    font-size: 16px;
+    color:#ed4747;
 }
 
 /*/

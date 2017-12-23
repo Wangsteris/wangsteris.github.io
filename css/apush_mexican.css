@@ -1,0 +1,86 @@
+.highlight1{
+    color:#c10000;
+}
+
+.highlight2{
+    color:white;
+}
+
+.highlight3{
+    color:#0052d6;
+}
+header h1{
+    font-size: 60px;
+}
+header P{
+    color:red;
+}
+
+#sidebar{
+    float:left;
+    height:750px;
+    width:175px;
+    margin-top:10px;
+    background: #011796;
+    min-height: 100px;
+    min-width: 150px;
+    opacity: .60;
+}
+
+#sidebar h3{
+    text-align: center;
+    color:#a50000;
+}
+
+#sidebar a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 16px;
+    text-align: center;
+}
+
+#sidebar ul{
+    float:left;
+    padding: 0 20px 0 20px;
+    display: inline;
+}
+
+#sidebar .highlight, #sidebar .current a{
+    color:#8B0000;
+    font-weight:bold;
+}
+
+#sidebar a:hover{
+    color:#8B0000;
+    font-weight:bold;
+}
+
+
+#info .container{
+    margin-left:200px;
+    margin-top: 50px;
+}
+
+#info h3{
+    font-size:40px;
+    font-style: italic;
+    color:white;
+}
+
+#info p{
+    font-size:20px;
+    color:white;
+}
+
+#info p1{
+    color:white;
+}
+
+html { 
+  background: url('../img/apush_mexican.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
