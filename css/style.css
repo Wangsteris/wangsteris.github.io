@@ -304,7 +304,23 @@ article#main-col{
 
 footer{
     padding:20px;
-    margin-top: 100px;
+    margin-top: 850px;
+    color: #ffffff;
+    background-color: #ff99cc;
+    text-align: center;
+}
+footer2{
+    padding:20px;
+    margin-top: 700px;
+    margin-right: 500px:
+    color: #ffffff;
+    background-color: #ff99cc;
+    text-align: center;
+}
+
+footer1{
+     padding:20px;
+    margin-top: 200px;
     color: #ffffff;
     background-color: #ff99cc;
     text-align: center;
