@@ -1,0 +1,115 @@
+.highlight1{
+    color:#c10000;
+}
+
+.highlight2{
+    color:white;
+}
+
+.highlight3{
+    color:#0052d6;
+}
+/*/
+Pertaining to whole HTML page.
+/*/
+
+html { 
+  background: url('../img/apush_t.home.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*/
+Header
+/*/
+header {
+    padding-top:330px;
+    color:#990000;
+    padding-bottom: 330px;
+}
+
+header h1{
+    color:#ff1c1c;
+    font-style:italic;
+    font-size:50px;
+}
+
+header h2{
+    color:#ff1c1c;
+    font-style:italic;
+    font-size:25px;
+}
+
+header li{
+    padding: 0 20px 0 20px;
+}
+
+
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+
+header .highlight, header .current a{
+    color:#f90000;
+    font-weight:bold;
+}
+
+header nav{
+    margin-top:10px;
+    padding-right: 20px;
+}
+
+header a:hover{
+    color:#cc0000;
+    font-weight:bold;
+}
+
+header p{
+    font-size: 16px;
+    color:#ed4747;
+}
+
+/*/
+header showcase{
+    padding-left: 100px;
+}
+/*/
+/*/
+Drop Down
+/*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    display:block;
+    background:red;
+}
+
+.dropdown-content a:hover {background-color: #ff3333}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ff3333;
+}

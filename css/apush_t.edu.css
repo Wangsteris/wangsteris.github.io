@@ -1,0 +1,115 @@
+.highlight1{
+    color:#c10000;
+}
+
+.highlight2{
+    color:white;
+}
+
+.highlight3{
+    color:#0052d6;
+}
+header h1{
+    font-size: 45px;
+}
+header P{
+    color:red;
+}
+
+header nav{
+    float:right;
+    margin-top:0px;
+    display:inline;
+    background:black;
+}
+
+header #branding{
+    float:left;
+    display: inline;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header ul{
+    float:left;
+    padding: 0 20px 0 20px;
+    display: inline;
+}
+
+header a{
+    color:red;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 10px;
+}
+
+header a:hover{
+    color:#8B0000;
+    font-weight:bold;
+}
+
+header{
+    background:#000000;
+    color: #ffffff;
+    padding-top: 0px;
+    min-height:70px;
+    height:100px;
+    border-bottom: #e8491d 3px solid;
+    opacity: .7;
+}
+
+header #container{
+    color:#000000;
+    font-weight:bold;
+    float:center;
+    background-color:red;
+    padding-bottom: 100px;
+}
+
+body p4{
+    color:white;
+    font-size: 15px;
+}
+
+header .highlight, header .current a{
+    color:#880000;
+    font-weight:bold;
+}
+
+#info .container{
+    margin-left:200px;
+    margin-top: 50px;
+}
+
+#info h3{
+    font-size:40px;
+    font-style: italic;
+    color:#960000;
+}
+
+#info p{
+    font-size:20px;
+    color:white;
+}
+
+#info p1{
+    color:white;
+}
+
+#info pz{
+    padding-top: 10px;
+    font-size: 40px;
+    font-style: italic;
+    color:#960000;
+}
+
+html { 
+  background: url('../img/apush_t.edu.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
