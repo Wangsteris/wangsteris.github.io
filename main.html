@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <title>Flappy Supreme Leader</title>
+        <link rel="shortcut icon" type="image/png" href="./img/kim.png">
+        <script type= "text/javascript" src="js/processing.js"></script>
+    </head>
+    <body>
+        <script type="text/processing">
+PImage bg;
+PImage face;
+PImage boss;
+PImage jet;
+PImage san;
+
+int count = 0;
+int y = 300; int vy = 0;
+int x = 0; int vx = 0; 
+
+int by = 5; int vby = 0; int bx = 600;
+
+int jx = 500; int jy = 0; int vjx=10;
+int sx = 500; int sy = 0; int vsx=10;
+
+int mx = 100; int my = 0 ; int vmx = 0; 
+
+int gamestate = 2;
+
+int score = 0;
+
+float ry = random (0,600); 
+float rx = random (0,800); 
+
+void setup(){
+  size(800,600);
+  bg = loadImage("./img/bg.png");
+  face = loadImage("./img/kim.png");
+  boss = loadImage("./img/donaldtrump.png");
+  jet = loadImage("./img/f-16.png");
+  san = loadImage("./img/sanctions.png");
+  //image(bg,0,0);
+}
+
+void draw(){
+if (gamestate == 2){
+    background(0,0,0);
+    fill(155,0,0);
+    rect(125,350,540,70,20);
+    fill(255);
+    textSize(20);
+    text("Welcome Supreme Leader.",100,100);
+    text("Donald Trump says he wants to topple our regime.",100,150);
+    text("Dodge his attempted attacks!!!",100,200);
+    text("Don't worry about the sanctions.",100,250)
+    text("They Don't work.",100,275)
+    textSize(50);
+    text("Click mouse to Start",125,400);
+    if (mouseX > 125 && mouseX < 645 && mouseY > 350 && mouseY < 420){
+      fill(255,0,0);
+      rect(125,350,540,70,20);
+      fill(0);
+      text("Click mouse to restart",125,400);
+      if (mousePressed){
+        gamestate=0;
+        y=300;
+        score=0;
+      }
+      }
+  }
+   if (gamestate==0){
+      image(bg,count,0);
+      image(bg,width+count,0);
+      textSize(40);
+      fill(255,255,255);
+      text("Score: " +score+ "", 10 ,40);
+      shootJet();
+      sanc();
+      count--;
+      if (count == -800){
+        count = 0;
+      }
+      image(face,50,y);
+      image(boss,bx,by);
+      
+      if (count%2 == 0){
+        vy += 1;
+
+        
+      if (by > 490){
+        vby -= 1;
+      }
+      if (by < 10){
+        vby+= 1;
+      }
+      }
+      y=y+vy;
+      by=by+vby;
+    }
+    if (y <-50 ||  y > 640){
+      gamestate = 1;
+    }
+    if (x+18> jx-5 && x+18< jx+200 && y+23<jy+25 && y+23>jy){
+    gamestate=1;
+    }
+    if (x+18 > sx && x+18<sx+100 && y+23<ry && y+23>ry+50){
+      gamestate=1;
+    }
+    if (count%10==0){
+      score++;
+    }
+if (gamestate == 1){
+    jx=500;
+    score=0;
+    background(0,0,0);
+    fill(155,0,0);
+    rect(125,250,540,70,20);
+    fill(255);
+    textSize(50);
+    text("You loser, Haha",200,200);
+    text("Click mouse to restart",125,300);
+    if (mouseX > 125 && mouseX < 645 && mouseY > 250 && mouseY < 320){
+      fill(255,0,0);
+      rect(125,250,540,70,20);
+      fill(0);
+      text("Click mouse to restart",125,300);
+      if (mousePressed){
+        gamestate=0;
+        y=300;
+      }
+      }
+  }
+}
+
+void shootJet(){
+  jy = by+70;
+  image(jet,jx,jy);
+  jx= jx-vjx;
+  if (jx<-100){
+    jx=500;
+  }
+}
+
+void sanc(){
+  image(san,sx,ry);
+  sx= sx-vsx;
+  if (sx<-100){
+    sx=810;
+  }
+  if (sx >809){
+    ry = random (0,600); 
+  }
+    
+}
+  
+void keepshot(){
+  if (jx<-150){
+    jx=500;
+    ///vjx=0;
+    shootJet();
+  }
+}
+
+void mousePressed(){
+      vy = -10;
+    }
+    
+        </script>
+        <canvas id ="sketch" style="border: 1px solid black;"></canvas>
+        </body>
+</html>
+        
