@@ -48,12 +48,10 @@ if (gamestate == 2){
     fill(255);
     textSize(20);
     text("Welcome Supreme Leader.",100,100);
-    text("Donald Trump says he wants to topple our regime.",100,150);
-    text("Dodge his attempted attacks!!!",100,200);
-    text("Don't worry about the sanctions.",100,250)
-    text("They Don't work.",100,275)
+    text("Donald Trump says he wants to topple our regime.",100,200);
+    text("Dodge his attempted attacks and sanctions!!!",100,300);
     textSize(50);
-    text("Click mouse to Start",125,400);
+    text("Click mouse to restart",125,400);
     if (mouseX > 125 && mouseX < 645 && mouseY > 350 && mouseY < 420){
       fill(255,0,0);
       rect(125,350,540,70,20);
@@ -61,8 +59,8 @@ if (gamestate == 2){
       text("Click mouse to restart",125,400);
       if (mousePressed){
         gamestate=0;
-        y=300;
         score=0;
+        y=300;
       }
       }
   }
@@ -101,15 +99,16 @@ if (gamestate == 2){
     if (x+18> jx-5 && x+18< jx+200 && y+23<jy+25 && y+23>jy){
     gamestate=1;
     }
-    if (x+18 > sx && x+18<sx+100 && y+23<ry && y+23>ry+50){
-      gamestate=1;
+    if (x+18> sx && x+18< sx+100 && y+23<ry+50 && y+23>ry){
+    gamestate=1;
     }
-    if (count%10==0){
+    if (count%60==0){
       score++;
     }
 if (gamestate == 1){
-    jx=500;
     score=0;
+    jx=500;
+    sx=800;
     background(0,0,0);
     fill(155,0,0);
     rect(125,250,540,70,20);
@@ -144,11 +143,9 @@ void sanc(){
   sx= sx-vsx;
   if (sx<-100){
     sx=810;
-  }
-  if (sx >809){
     ry = random (0,600); 
+  
   }
-    
 }
   
 void keepshot(){
